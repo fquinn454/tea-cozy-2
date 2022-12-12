@@ -1,6 +1,11 @@
 /*Universal*/
-html{
+
+*{
     opacity:0.9;
+}
+
+html{
+
     text-align: center;
 }
 
@@ -57,4 +62,66 @@ body{
     margin: 0 auto;
 }
 
-/**/
+/*Tea of the month*/
+.flex-image-container{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.totm-image{
+    height:200px;
+    width:300px;
+    margin:10px;
+}
+
+.totm{
+    margin-top:50px;
+}
+
+figure{
+    margin:5px;
+}
+
+/*Locations*/
+.flex-container-locations{
+    margin:0 auto;
+    background-image: url('./images/img-locations-background.jpg');
+    max-width:1200px;
+    min-height:500px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:auto;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:80px;
+}
+
+.flex-container-locations h2{
+    margin-top:120px;
+}
+
+.flex-container-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item-address{
+    display: block;
+    background-color: black;
+    opacity: 1;
+    width:300px;
+    min-height:180px;
+    font-size:large;
+    line-height: 30px;
+    margin:20px;
+}
