@@ -53,8 +53,6 @@ body{
 }   
 
 .flex-item-mission{
-    position: absolute;
-    top:50%;
     background-color: black;
     opacity: 1;
     max-width: 1200px;
@@ -124,4 +122,21 @@ figure{
     font-size:large;
     line-height: 30px;
     margin:20px;
+}
+
+/*Footer*/
+.flex-container-footer{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height:200px;
+}
+
+.copyright{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: flex-start;
+    font-size: smaller;
 }
