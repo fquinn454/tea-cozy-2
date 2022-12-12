@@ -1,5 +1,5 @@
 /*Universal*/
-*{
+html{
     opacity:0.9;
     text-align: center;
 }
@@ -32,29 +32,29 @@ body{
 }
 
 /*Mission*/
-.mission{
+.flex-container-mission{
     margin:0 auto;
     background-image: url('./images/img-mission-background.jpg');
     max-width:1200px;
     min-height:700px;
     background-size:contain;
     background-repeat:no-repeat;
-    background-position: center;
-    background-size: auto;
+    background-position:center;
+    background-size:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }   
 
-.flex-container-mission{
-    display: flex;
-    justify-content:center;
-    justify-items: center;
+.flex-item-mission{
+    position: absolute;
     top:50%;
-    padding: 20px 0;
     background-color: black;
     opacity: 1;
-    width:1200px;
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
 }
 
-h4.flex-container-mission,
-h2.flex-container-mission{
-
-}
+/**/
